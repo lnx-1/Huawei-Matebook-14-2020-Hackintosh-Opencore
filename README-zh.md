@@ -2,6 +2,8 @@
 
 本项目为华为 MateBook 14 2020款 锐龙版（AMD Ryzen）提供 macOS 引导支持。基于 OpenCore 制作。
 
+其他年份的matebook锐龙芯片的笔记本，理论上也可以使用这个efi文件
+
 ## 💻 硬件配置 
 
 | 硬件 (Component)     | 型号 (Details)                             |
@@ -19,7 +21,7 @@
 - 引导工具：OpenCore  0.8.8
 
 ## ✅ 工作状态 (What's working)
-- [x] AMD 核显硬件加速 (通过 NootedRed)
+- [x] AMD 核显硬件加速 (通过 NootedRed)  屏幕支持2k显示
 
 - [x] 扬声器播放 / 3.5mm 耳机接口
 
@@ -27,7 +29,7 @@
 
 - [x] Wi-Fi & 蓝牙 (通过 AX200 + itlwm/AirportItlwm)
 
-  注意，原装的RTL8822CE无法在macos系统下工作，务必更换为其他的芯片（例如Intel AX200
+  注意，原装的RTL8822CE无法在macos系统下工作，务必更换为其他的芯片（例如Intel AX200）
 
 - [x] 触控板 (支持多指手势)
 
@@ -61,7 +63,9 @@
 
 ## 🚀 使用说明 (Installation)
 1. 将 EFI 文件夹放入你的 U 盘 ESP 分区进行安装。
-2. 
+
+## 成功运行截图
+![成功运行截图](pic/p.jpg)
 
 ## 🙏 鸣谢 (Credits)
 - 感谢[Acidanthera](https://github.com/acidanthera) 团队提供的 OpenCore 和各类 Kexts。

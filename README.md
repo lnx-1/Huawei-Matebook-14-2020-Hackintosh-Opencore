@@ -2,6 +2,8 @@
 
 This project provides macOS boot support for the Huawei MateBook 14 2020 AMD version (Ryzen). It is based on OpenCore.
 
+Laptops with Ryzen chips from other years of the MateBook series should theoretically be able to use this EFI file as well.
+
 ## 💻 Hardware Configuration
 
 | Hardware (Component)      | Model (Details)                                         |
@@ -21,7 +23,7 @@ This project provides macOS boot support for the Huawei MateBook 14 2020 AMD ver
 
 ## ✅ Working Status
 
-* [x] AMD integrated GPU hardware acceleration (via NootedRed)
+* [x] AMD integrated GPU hardware acceleration (via NootedRed)  The screen supports 2K resolution display.
 
 * [x] Speakers & 3.5mm headphone jack
 
@@ -67,7 +69,9 @@ After booting into OpenCore, you should press the spacebar for the first time an
 ## 🚀 Installation Instructions
 
 1. Place the EFI folder into the U disk's ESP partition for installation.
-2.
+
+## Successful Run Screenshot
+![Successful Run Screenshot](pic/p.jpg)
 
 ## 🙏 Acknowledgments
 
